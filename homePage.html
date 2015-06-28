@@ -9,12 +9,18 @@
 	<script type="text/javascript">
         $.backstretch("http://www.hdwallpapersos.com/wp-content/uploads/2014/08/wpid-Red-Wallpaper-110.jpg", {speed: 150});
 	</script>
+	<script type="text/javascript" src="/home/jakita/Proyecto1/redirect.js"></script>
 </head>
 <body>
-	<h1>Welcome to the Magic Login Page</h1>
-	<div class="main_container">
-		<input type="text" class="defaultTextBox advancedSearchTextBox" />
-		<a href="#" class="myButton">login</a>
-	</div>
+	<form>
+		<h1>Welcome to the Magic Login Page</h1>
+		<div class="main_container">
+			<input type="text" class="userTextbox advancedSearchTextBox" />
+			<br>
+			<input type="text" class="passwordTextbox advancedSearchTextBox" />
+			<br>
+			<a href="#" class="myButton" onclick="mainRedirect()">Login</a>
+		</div>
+	</form>
 </body>
 </html>

@@ -11,7 +11,8 @@ h1 {
 .main_container{
 	margin: 0px	0px 0px 490px;
 }
-.defaultTextBox {
+.passwordTextbox, .userTextbox {
+	margin-bottom: 24px;
     padding: 0;
     height: 30px;
     position: relative;
@@ -27,7 +28,7 @@ h1 {
     margin-right: -4px;
 }
 .myButton {
-	margin: 0px 0px 0px 24px;
+	margin: 0px 0px 0px 50px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	box-shadow:inset 0px 1px 0px 0px #f5978e;
